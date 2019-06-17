@@ -1,0 +1,35 @@
+\documentclass{article}
+\title{Mathematical Modelling of Malaria using SIRS Model}
+\date{21st April 2019}
+\author{RAJ AARYAN}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+\pagenumbering{gobble}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{roman}
+\section{Introduction}
+Malaria is a serious and at times fatal epidemic affecting almost one out of every 2nd person in the entire world. Worldwide, malaria ranks 5th as the leading cause of death from infectious diseases, whereas if taken Africa, it is more dangerous there as it is the 2nd leading cause there. In the United States, thousands of new cases of malaria occur each year, which mainly include travelers or immigrants. In 2010, the World Health Organization (WHO) estimated 140 - 280 million cases of malaria occurred, with approximately around 650, 000 deaths. Malaria comes under the category of parasitic diseases which is transmitted by the bite of an infected mosquito or by blood transfusion (surgery, needle sharing, birth). 
+
+\paragraph{}
+
+There are 4 different species that cause malaria in humans: Plasmodium falciparum, P. vivax, P. ovale, P. malariae. Of the four, P. falciparum and P. vivax are the most common while P. falciparum is the most fatal. In humans, the parasite first gets multiplied in the liver and then starts infecting the red blood cells. Once the parasites reach the blood system, symptoms such as high fever, and vomiting start occurring, usually within 2 weeks after the mosquito bite. Also, once the parasites reach the human blood cells, the female Anopheles mosquito can become infected by taking a blood meal. It is important to note that the Anopheles mosquito feeds between dusk and dawn, often inside. 
+
+
+\paragraph {} 
+
+Mathematical models have always been used to provide an accurate structure for understanding malaria transmission dynamics for over a century in humans. One of the earliest mathematical models for understanding malaria transmission was developed by Ross (Koutou et al., 2018; Moulay, Aziz-Alaoui, & Cadivel, 2011).
+\paragraph
+
+This is some example text\footnote{\label{myfootnote}Hello footnote}.
+
+\newpage
+
+\printbibliography
+
+\end{document}
