@@ -26,10 +26,6 @@ There are 4 different species that cause malaria in humans: Plasmodium falciparu
 Mathematical models have always been used to provide an accurate structure for understanding malaria transmission dynamics for over a century in humans. One of the earliest mathematical models for understanding malaria transmission was developed by Ross (Koutou et al., 2018; Moulay, Aziz-Alaoui, & Cadivel, 2011).
 \paragraph
 
-This is some example text\footnote{\label{myfootnote}Hello footnote}.
 
-\newpage
-
-\printbibliography
 
 \end{document}
