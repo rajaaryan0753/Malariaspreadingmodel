@@ -24,12 +24,55 @@ There are 4 different species that cause malaria in humans: Plasmodium falciparu
 \paragraph {} 
 
 Mathematical models have always been used to provide an accurate structure for understanding malaria transmission dynamics for over a century in humans. One of the earliest mathematical models for understanding malaria transmission was developed by Ross (Koutou et al., 2018; Moulay, Aziz-Alaoui, & Cadivel, 2011).
-\paragraph
 
-This is some example text\footnote{\label{myfootnote}Hello footnote}.
+\paragraph{}
 
-\newpage
+Ross’s model consisted of two nonlinear differential equations in two state
+variables that correspond to the proportions of infected human beings and the
+infected mosquitoes. Macdonald (1957) then improved Ross’s more famous
+differential equations model by including some biological assumptions andrelevant entomological field data, which made it more accurate than before.
+Since then, multiple models have been proposed for malaria by various authors.
+For instance, Aron and May (Chitnis, Hyman, & Cushing, 2008; Khan, Khan, &
+Islam, 2015; Traoré et al., 2018) added various features of malaria to the existing
+models, such as including a period of immunity in human beings.
 
-\printbibliography
+\paragraph{}
+
+The inclusion of acquired immunity proposed by (Chitnis, Cushing, & Hyman,
+2006; Ruan, Xiao, & Beier, 2008) was one of the major points of malaria
+modeling. With the disease still thriving and threatening to be a major source of
+death and disability due to changed environmental and socio-economic
+conditions, it is necessary to make a critical assessment of the models already
+there and study the changes brought over time.
+
+\paragraph{}
+
+We have tried to employ mathematical modeling to address biological issues and address
+questions on the transmission of malaria. For this project, we start using the standard
+epidemiological ODE Susceptible - Infected - Recovered- Susceptible (SIRS) model.
+In the SIRS model, different fractions of the population are classified as Susceptible to
+infection, S(t), Infected, I(t), or Recovered from infection, R(t), where t represents time. The
+size of each group can change based on different parameters and the current values of S(t),
+I(t), and R(t), the total population is not taken to be constant, rather birth and death rates are
+also taken into consideration to get more precise information.
+
+\paragraph{}
+
+The SIRS model is a simple model useful for modeling other diseases too such as chicken
+pox and influenza. Modern epidemiology ODE models are based on these same SIRS
+concepts of populations flowing between the different stages. For our model, we will apply
+the basic concepts of the SIRS model, taking into consideration all the variables.
+
+\paragraph{}
+
+The remaining part of the paper is structured as follows. The next section concerns the
+model formulation. In this Section, we have also presented some useful preliminaries and
+assumptions for the mathematical analysis of the model. In further sections, we have
+derived some results about equilibriums. The global stability of the equilibriums was
+checked, and the results are then subjected to different graphical interpretations. We then
+conclude the paper with some remarks of our own.
+
+
+
 
 \end{document}
