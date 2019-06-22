@@ -71,7 +71,20 @@ assumptions for the mathematical analysis of the model. In further sections, we 
 derived some results about equilibriums. The global stability of the equilibriums was
 checked, and the results are then subjected to different graphical interpretations. We then
 conclude the paper with some remarks of our own.
-
+\section{Model}
+In constructing the model we employ natural behaviour of the infection. The population
+divided into three mutually exclusive exhaustive classes namely, susceptible population(S),
+infected population (I) and Recovered population (R). These classes of population interact
+with each other on the basis of behaviour of infection.
+Malaria being an endemic disease the rate of spread of the infection is directly proportional
+to the susceptible population and the population that is already infected giving rise to βSI
+term in (i) and (ii). The rate at which people recover ( gain partial immunity) is directly
+proportional only to the size of population infected, giving rise to δ​ 2​ I term in equation (ii) and
+(iii). The rate of loss of partial immunity and again becoming susceptible depends solely on
+size recovered population, giving rise to rR term in equation (iii) and (i) .
+Individuals are born in healthy state i.e in susceptible population with rate of A。. Rate of
+natural death is directly proportional to the size of population and rate of deaths due to
+infection is directly proportional to infected population.
 
 
 
