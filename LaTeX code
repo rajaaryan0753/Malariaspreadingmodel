@@ -85,6 +85,22 @@ size recovered population, giving rise to rR term in equation (iii) and (i) .
 Individuals are born in healthy state i.e in susceptible population with rate of A。. Rate of
 natural death is directly proportional to the size of population and rate of deaths due to
 infection is directly proportional to infected population.
+ \newpage
+ \section{Stability Analysis} 
+\subsection{ Local Stability Analysis}
+
+\paragraph{}For this purpose we will calculate Jacobian matrix and then calculate the eigen values at that point and determine the  sufficient conditions in which the eigen value obtained will have negative real part and if we succeed in doing so then we will say that it is local asympototically stable . 
+
+\paragraph{}The general variational matrix is given by 
+
+\[M = \left[\begin{matrix}-\beta (I)-\delta_{0}&  -\beta (S)& r \\\beta (I) & \beta(S)-\delta_{0}-\delta_{1}-\delta_{2}& 0 \\0 &\delta_{2} & - \delta_0-r \end{matrix}\right].\]
+
+\subsubsection{Stability of disease-free equilibrium} On substituting 
+\[S = \dfrac{A_0}{\delta_0}, I = 0, R = 0\]
+into the general variational matrix M, we get
+\[M = \left[\begin{matrix}- \delta_{0} &- \beta(\dfrac{A_0}{\delta_0}) & r \\0  & \beta(\dfrac{A_0}{\delta_0})-\delta_{0}-\delta_{1}-\delta_{2} & 0\\0 & \delta_2}  &-\delta_{0}-r \end{matrix}\right].\]
+
+
 
 
 
