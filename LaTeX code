@@ -101,6 +101,75 @@ into the general variational matrix M, we get
 \[M = \left[\begin{matrix}- \delta_{0} &- \beta(\dfrac{A_0}{\delta_0}) & r \\0  & \beta(\dfrac{A_0}{\delta_0})-\delta_{0}-\delta_{1}-\delta_{2} & 0\\0 & \delta_2}  &-\delta_{0}-r \end{matrix}\right].\]
 
 
+\subsection{Global stability Analysis}
+\paragraph{}
+
+$ V(S,I,R) =\frac{1}{2}[(S-S^{*})^{2}+(I-I^{*})^{2}+(R-R^{*})^{2}]$.
+
+hence
+
+
+
+$\frac{dV}{dt} =[(S-S^{*})\frac{dS}{dt}+(I-I^{*})\frac{dI}{dt}+(R-R^{*})\frac{dR}{dt}]$.
+
+
+
+
+now we get
+
+
+
+$(S-S^{*})\frac{dS}{dt} =-(\delta _{0}+\beta )(S-S^{*})^{2}+r(R-R^{*})(S-S^{*})-\beta S^{*}(I-I^{*})(S-S^{*})
+ $
+ 
+ 
+ $ (R-R^{*})\frac{dR}{dt}=-(R-R^{*})^{2}-\delta _{0}(R-R^{*})(I-I^{*})$
+ 
+ 
+ now clubbing the same coefficient terms  
+ 
+and comparing with standard equation
+ 
+ $a(X)^2+bXY+cY^2$
+ where $a<0,c<0$ and $(b)^2<4ac$
+ 
+ $\frac{dV}{dt}< 0$
+ 
+ we get the coefficient of $(S-(S)^*)^2,(I-I^{*})^2$ and other terms respectively
+
+ a_{11}=-(\delta _{0}+\beta (I)) )\\
+ a_{22}= -(\delta _{0}+\delta _{1}+\delta _{2}-\beta (S) )\\
+ a_{33}=-(\delta _{0}+r)\\
+a_{12}=      \beta (I^{*}-S^{*})\\
+a_{23}=\delta _{0}\\
+a_{31}=r
+$ $ (a_{ij})^2<a_{ii}a_{jj};i\neq j$
+
+
+now the condition
+
+
+$(\delta _{0}+\delta _{1}+\delta _{2}-\beta (S))> 0 $ 
+
+hence we get by considering maximum value of S
+
+  $  (\delta _{0}+\delta _{1}+\delta _{2})(\delta _{0})> \beta A _{0}\\$ \begin{comment}    \end{comment}
+   
+ 
+
+and now the three other conditions
+
+
+
+    
+(\beta (I^{*}-S^{*}))^2< (\delta _{0}+\beta (I)) )(\delta _{0}+\delta _{1}+\delta _{2}-\beta (S) )\\
+
+
+(r)^2<(\delta _{0}+\beta (I)) (\delta _{0}+r)\\
+
+
+(\delta _{0})^2<(\delta _{0}+r)(\delta _{0}+\beta (I)) 
+
 
 
 
